@@ -1,7 +1,79 @@
 /* CSS Styles*/
 
 .logo {
-    width: 53.09px;
+    width: 45px;
     height: auto;
-    transform: rotate(-18.86deg);
+}
+
+.lemur {
+    font-family: Belgrano;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 0.185em;
+}
+
+.left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 79px;
+    font-size: 2vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+header, .welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 160px;
+}
+
+.welcome-section {
+    margin: 100px 160px 160px;
+}
+
+
+.presentation {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Raleway;
+    color: #000000;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 12vh;
+    letter-spacing: 0.10em;
+    line-height: 13vh;
+    margin: 0;
+    padding: 0;
+}
+
+.impact {
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+.front {
+    width: 220vh;
+    height: auto;
+}
+
+span {
+    color: #F1510CCC;
 }
