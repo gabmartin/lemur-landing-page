@@ -1,5 +1,11 @@
 /* CSS Styles*/
 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 .logo {
     width: 45px;
     height: auto;
@@ -22,6 +28,8 @@
     display: flex;
     gap: 79px;
     font-size: 2vh;
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 ul {
@@ -31,18 +39,26 @@ ul {
 a {
     text-decoration: none;
     color: black;
-    font-family: 'Comfortaa', sans-serif;
 }
 
 header, .welcome-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 160px;
 }
 
-.welcome-section, .portfolio {
-    margin: 100px 160px 160px;
+header {
+    margin-left: 16.5vh;
+    margin-right: 16.5vh;
+    margin-top: 1vh;
+    margin-bottom: 10.5vh;
+}
+
+
+.welcome-section {
+    margin-left: 16.5vh;
+    margin-right: 16.5vh;
+    margin-bottom: 10.5vh;
 }
 
 .presentation {
@@ -82,15 +98,17 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 100px 250px;
+    justify-content: flex-start;
+    margin-bottom: 12.5vh;
+    margin-left: 16.5vh;
+    margin-right: 16.5vh;
 }
 
 .projects {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 6vh;
+    gap: 5vh;
 }
 
 .titletwo {
@@ -99,7 +117,60 @@ span {
 }
 
 video {
-    width: 67vh;
+    width: 50vh;
     height: auto;
     object-fit: cover;
+}
+
+.feedback {
+    background-color: honeydew;
+    padding: 10vh 16.5vh;
+    margin: 0;
+    margin-bottom: 12.5vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 2vh;
+    align-self: flex-end;
+}
+
+.social {
+    margin-bottom: 12.5vh;
+    margin-left: 16.5vh;
+    margin-right: 16.5vh;
+    background-color: #F1510CCC;
+    padding: 5vh 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    padding: 4vh 20vh;
+    text-align: center;
+}
+
+.subaction {
+    font-family: Raleway;
+    color: #000000;
+    font-size: 2vh;
+}
+
+.action {
+    font-size: 3vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonsocial {
+    width: 8vh;
+    height: auto;
+    margin: 2vh;
 }
